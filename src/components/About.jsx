@@ -42,8 +42,8 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} 
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]" >
-      I'm a frontend developer passionate about crafting immersive 
-      web experiences. My skill set spans JavaScript, React.js, Three.js,
+      I'm a full-stack developer passionate about crafting immersive 
+      web experiences. My skill set spans JavaScript, React.js, Express.js, Three.js,
       and Node.js, allowing me to build dynamic and visually appealing
       applications. I thrive in collaborative environments, where I contribute not only
       technical expertise but also effective communication and a keen eye
