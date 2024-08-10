@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Devops Engineer",
       icon: creator,
     },
   ];
@@ -122,10 +122,8 @@ import {
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Dont Take it seriously.",
+        "Just to show case this UI.",
       ],
     },
     {
@@ -135,10 +133,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "Dont Take it seriously.",
+        "Just to show case this UI.",
       ],
     },
     {
@@ -148,10 +144,8 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "Dont Take it seriously.",
+        "Just to show case this UI.",
       ],
     },
     {
@@ -161,10 +155,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "Dont Take it seriously.",
+        "Just to show case this UI.",
       ],
     },
   ];
@@ -198,10 +190,14 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Threads",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a Threads clone using NoSQL, React, and Next.js. This application allows users to display their profiles, create communities, post threads, and engage with others by commenting on threads. Leveraged NoSQL for scalable data management and ensured a responsive, user-friendly interface with React and Next.js.",
       tags: [
+        {
+          name: "nextjs",
+          color: "pink-text-gradient",
+        },
         {
           name: "react",
           color: "blue-text-gradient",
@@ -216,12 +212,12 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/motalha-7/Threads",
     },
     {
-      name: "Job IT",
+      name: "Chat Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a real-time chat application using React and Chat Engine. Integrated Generative AI to convert audio messages into text, enhancing accessibility and user interaction. The application supports community creation, real-time messaging, and a seamless user experience.",
       tags: [
         {
           name: "react",
@@ -232,33 +228,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "genai",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/motalha-7/Chat_application.git",
     },
     {
-      name: "Trip Guide",
+      name: "Style (e-commerce)",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a full-stack ecommerce website using the MERN stack, featuring product display, cart functionality, and user authentication. Implemented APIs for seamless product management and cart updates, enhancing the shopping experience. Built an admin panel to streamline backend processes, reducing update times by 30%. Dockerized the application for consistent development and production environments, and pushed the Docker image to Docker Hub for simplified deployment and scaling.",
       tags: [
         {
-          name: "nextjs",
+          name: "mern",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "dynamic",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "docker",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/motalha-7/STYLE-eCommerce-",
     },
   ];
   

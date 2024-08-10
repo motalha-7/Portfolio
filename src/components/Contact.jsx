@@ -32,7 +32,7 @@ const Contact = () => {
      //template_13f4kvs
 
     emailjs.send(
-      'service_510zzy5', 
+      'service_04fneph', 
       'template_13f4kvs',
       {
         from_name: form.name,
@@ -115,7 +115,7 @@ const Contact = () => {
 
               <button 
                   type='submit'
-                  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>
+                  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer'>
                    {loading ? "Sending..." : "Send" }
               </button>
           </form>
